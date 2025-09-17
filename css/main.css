@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Back to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #18415c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background 0.3s;
+}
+#backToTop:hover { background: #2d5b7a; }
+
+/* General font */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+.header-top {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  height: 38px;
+  font-size: 0.9rem;
+}
+.header-top .site-link { color: #ff6600; text-decoration: none; }
+.header-top .site-link:hover { color: #cc5200; }
+
+.lang-select { color: #212529; font-weight: 500; text-decoration: none; }
+.lang-select:hover { color: #0d6efd; }
+
+.logo { height: 120px; width: auto; }
+
+/* Social Icons */
+.social-icon {
+  font-size: 20px;
+  transition: transform 0.2s ease;
+}
+.social-icon:hover { transform: scale(1.1); }
+.social-icon.yt { color: #f21818; }
+.social-icon.phone { color: green; }
+.social-icon.fb { color: #1877f2; }
+.social-icon.tw { color: #000; }
+
+/* Text */
+.head-text { color: #022741; font-weight: 700; letter-spacing: 1px; }
+.sub-text { color: #022741; }
+.sub-text-2 { color: #555; font-weight: 500; }
+
+/* Navbar */
+.navbar { 
+  background-color: #18415c; 
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Intro */
+.intro-text {
+  text-align: justify;
+  text-indent: 2em;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Carousel */
+#mainCarousel .carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Content */
+.content-card {
+  background: #fff;
+  border-left: 5px solid #0d6efd;
+}
+.content-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+/* Images */
+img.img-fluid {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* Cards */
+.card-img-top { height: 200px; object-fit: cover; }
+.card-hover { transition: transform 0.2s, box-shadow 0.2s; }
+.card-hover:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+
+/* Footer */
+footer a { text-decoration: none; }
+footer a:hover { text-decoration: underline; }
